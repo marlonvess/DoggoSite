@@ -1,0 +1,30 @@
+* {
+     padding: 0;
+     list-style: none;
+}
+
+.header img {
+    height: 50px;
+    width: 50px;
+}
+
+.header {
+    display: flex;
+}
+
+.header-container {
+  
+}
+.box-01{
+    display: flex;
+    padding: 60px;
+}
+
+.box-01-text {
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.box-01-img img {
+    width: 500px;
+}
