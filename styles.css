@@ -1,30 +1,23 @@
-* {
-     padding: 0;
-     list-style: none;
+
+body 
+{
+    margin: 0;
 }
 
-.header img {
-    height: 50px;
+
+.header-container 
+{
+    display: flex;
+    padding: 10px;
+    background-color: #2642f8;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-container img
+{
     width: 50px;
-}
-
-.header {
-    display: flex;
-}
-
-.header-container {
-  
-}
-.box-01{
-    display: flex;
-    padding: 60px;
-}
-
-.box-01-text {
-   flex-direction: column;
-   flex-wrap: wrap;
-}
-
-.box-01-img img {
-    width: 500px;
+    height: 50px;
+    margin-right: auto;
 }
