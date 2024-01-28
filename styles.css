@@ -117,6 +117,8 @@ h1
     margin: 5%;
     border-radius: 15px;
     align-items: baseline;
+    color: #E5E7EB;
+    
 }
 
 .box-04 button
@@ -142,4 +144,11 @@ h1
     height: 30px;
     text-align: center;
     padding: 15px;
+    color: #E5E7EB;
 }
+
+@media only screen and (max-width: 800px) {
+    .box-01 img {
+        width: 300px
+    }
+  }
