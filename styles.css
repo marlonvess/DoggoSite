@@ -41,6 +41,7 @@ h1
     gap: 10px;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 45px;
  }
 
 .box-01 img
@@ -88,19 +89,57 @@ h1
 .box-03
 {
     background-color:#E5E7EB;
+    padding: 150px;
+    /*display: flex;
+    flex-direction: column;*/
+    gap: 15px;
 }
 
+.text1
+{
+    font-size: 30px;
+    width: 80%;
+    
+}
+
+.text2
+
+{
+    padding-top: 50px;
+}
 .box-04
 {
+    display: flex;
     background-color: #3882F6;
+    padding: 50px 30px 80px 100px;
+    width: 50%;
+    height: 50%;
+    margin: 5%;
+    border-radius: 15px;
+    align-items: baseline;
 }
 
+.box-04 button
+{
+    background-color: #f1eeed;
+    border: none;
+    border-radius: 30px;
+    color: rgb(17, 17, 19);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
 .footer
 {
     background-color:#1F2937;
-    position: fixed;
     bottom: 0;
     width: 100%;
     height: 30px;
     text-align: center;
+    padding: 15px;
 }
